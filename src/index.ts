@@ -55,6 +55,6 @@ export const handler = async () => {
 };
 
 // For local testing with `npm start`
-if (require.main === module) {
-  handler();
-} 
+// if (require.main === module) {
+//   handler();
+// } 
