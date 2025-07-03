@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.env
+lambda.zip
+lambda1.zip
+lambda2.zip
+lambda3.zip
+*.log
+npm-debug.log
+.DS_Store
+coverage/ 

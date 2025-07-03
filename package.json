@@ -1,0 +1,24 @@
+{
+  "name": "makerdao-workable-alert-lambda",
+  "version": "1.0.0",
+  "description": "AWS Lambda function to alert on unworked MakerDAO jobs.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "start": "ts-node src/index.ts"
+  },
+  "dependencies": {
+    "axios": "^1.6.7",
+    "dotenv": "^17.0.1",
+    "ethers": "^6.8.1",
+    "ts-jest": "^29.4.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "axios-mock-adapter": "^2.1.0",
+    "jest": "^29.7.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.2"
+  }
+}
